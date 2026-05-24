@@ -1,0 +1,64 @@
+body {
+    color: #222;
+    background #fff;
+    font: 100% system-ui;
+}
+a {
+    color: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #eee;
+    background: #000000;
+  }
+
+  body a {
+    color: #809fff;
+  }
+}
+
+
+
+.class1 {
+    display: flex;
+    justify-content: center;
+    align-items:center
+    height: 100vh;
+    font-size: 25px;
+    color: ;
+}
+img.yuvarlak {
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+}
+.class2 {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 10vh;
+    font-size: 20px;
+    color: #197f28;
+    border: 2px solid rgb(107, 35, 35);
+    padding: 15px;
+    background-color: rgb(94, 30, 30);
+    width: 100%;
+    box-sizing: border-box;
+}
+.class3 {
+    display: flex;
+    justify-content: center;
+    align-items:center
+    height: 100vh;
+    font-size: 20px;
+    color: ;
+}
+.class4 {
+    display: flex;
+    justify-content: center;
+    align-items:center
+    height: 100vh;
+    font-size: 100px;
+    color: ;
+}
